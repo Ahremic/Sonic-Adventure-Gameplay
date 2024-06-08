@@ -1,0 +1,3 @@
+[submodule "BlueBlur"]
+	path = BlueBlur
+	url = https://github.com/blueskythlikesclouds/BlueBlur.git
