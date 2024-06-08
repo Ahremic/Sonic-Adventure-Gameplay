@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Mod.cpp" />
+    <ClCompile Include="Pch.cpp" />
+    <ClCompile Include="Math\hhCMatrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\hhCQuaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\hhCVector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Cameras.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\FloatingBridge.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HavokPatch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDSoundManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpBall.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\JumpPanel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsGameplay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSpindash.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralAnimation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\RubberBandRail.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SetEditor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SetObjectMods.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SetObjectsCustom.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.h" />
+    <ClInclude Include="hhMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\hhCMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\hhCQuaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\hhCVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\hhCVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Cameras.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\JumpPanel.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\FloatingBridge.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDSoundManager.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpBall.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Paths.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ModLoader.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\LostCodeLoaderV2.h">
+      <Filter>Private\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\RegistryHelper.h">
+      <Filter>Private\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\BlueBlurExtensions.h">
+      <Filter>Private\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsGameplay.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSpindash.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralAnimation.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\RubberBandRail.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="SetEditor.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="SetObjectMods.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="SetObjectsCustom.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachineLite.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\stdExtensions.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{5080af57-4be2-4ae0-99a7-4c64a4b2755f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9c9b8aeb-a237-4b2f-a066-e64773604c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{2a5d417d-b8fd-418d-9d42-01560692f8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Extra">
+      <UniqueIdentifier>{121d0295-ef1d-4819-9f1a-81a6d9a4fec2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
